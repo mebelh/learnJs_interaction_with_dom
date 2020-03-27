@@ -1,0 +1,114 @@
+.lineButtons{
+    border: solid 2px #0c1730;
+    height: 100px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px;
+}
+
+.button{
+    background: rgb(36, 41, 58);
+    height: 80px;
+    width: 100px;
+    border: rgb(46, 12, 12) solid 1px;
+    margin-left: 15px;
+    transition: 1s;
+    opacity: 0;
+}
+.startButt{
+    background: rgb(78, 89, 126);
+    height: 50px;
+    width: 80px;
+    border: rgb(52, 71, 88) solid 1px;
+    border-radius: 5px;
+    margin: 20px 0px 0px 50%;
+}
+
+.deleg{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    border: solid rgb(14, 13, 24);
+    width: 40%;
+    text-align-last: center;
+}
+
+.widLine{
+    border: solid red 2px;
+    height: 25px;
+}
+
+.line{
+    border: solid green 2px;
+    width:  30%;
+    height: 25px;
+
+
+}
+
+.tableBox{
+    border: solid black 2px;
+    padding: 60px;
+}
+
+
+.praktOpenInfParent{
+    display: flex;
+}
+
+.praktOpenInf{
+    width: 300px;
+    height: 400px;
+    background: rgb(241, 249, 255);
+    border: black 2px solid;
+    overflow: auto;
+    margin: 40px;
+    padding: 20px;
+}
+
+.openTextBtn, .openTextBtnAll{
+    height: 50px;
+    margin-top: 50px;
+}
+
+
+.timerLogo{
+    border: black solid 2px;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 30px;
+    width: 500px;
+}
+
+.timerPerent{
+    height: 200px;
+    width: 450px;
+    background: rgb(208, 252, 255);
+    border: black solid 2px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.timerNumber{
+    width: 136px;
+    height: 198px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: rgb(29, 23, 14) solid 2px;
+    display: flex;
+    float: left;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+    align-content: center;
+}
+
+.pause, .pauseOff{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    margin-left: 15px;
+}
+
+.secondMachine{
+    display: flex;
+}
